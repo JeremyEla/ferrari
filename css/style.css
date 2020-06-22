@@ -1,0 +1,321 @@
+body{margin: 0;
+    padding: 0;
+  }
+    
+
+  
+   
+   .encabezado{
+      width: 20px;
+      height: 38px;
+      left: 1079px;
+    position: absolute;}
+      
+  
+    
+    h1{
+        background-color: rgb(0, 0, 0);
+         color: rgb(252, 249, 249);
+         height: 38px;
+         padding: 0%; 
+         text-shadow: 2px 2px 2px #000000;
+         
+         position: absolute;
+         margin: 0px;
+         left: 1114px;
+        
+        
+         
+    }
+    
+    
+        
+    
+    header {
+       
+        width: 100%;
+        background-color: #000000;
+        z-index: 100;
+        
+        
+        position: fixed;
+      
+      
+    }
+    
+    #btn-menu{
+        display: none;
+    }
+    
+    header label{
+        display: none;
+        width: 30px;
+        height: 30px;
+        padding: 10px;
+        border-right: 1px solid rgb(202, 16, 16);
+       
+    }
+    
+    
+    header label:hover{
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.3);
+    }
+    
+    
+    .menu ul{
+        margin: 0px;
+        list-style: none;
+        padding: 0px;
+        display: flex;
+        justify-content: left;
+        
+       
+    }
+    
+    
+    .menu li a{
+    display: block;
+    padding: 10px 57px;
+    text-decoration: none;
+    color:white ;
+    
+    }
+    
+    
+    .menu li {
+        border-right: 1px solid rgb(216, 33, 33);
+    
+    }
+    
+    .menu li a:hover{
+        background-color:rgb(202, 16, 16) ;
+    }
+    
+    @media (max-width:768px) {
+    
+        header label{
+            display: block;
+        }
+    
+        .menu{
+            position: absolute;
+            background: #000000;
+            width: 70%;
+            margin-left: -70%;
+            transition: all 0.5s;
+            
+            
+            
+        }
+        .menu ul{
+    
+            flex-direction: column;
+        }
+    
+        .menu li{
+            border-top: 1px solid rgb(202, 16, 16);
+        }
+        #btn-menu:checked  ~ .menu {
+    
+            margin: 0%;
+    
+        }
+    }
+
+
+    video{
+         
+    vertical-align: bottom;
+     justify-content: space-around;
+     display: flex;
+     
+        flex-direction: column;
+        
+    }
+
+    img{
+        vertical-align: bottom;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ini{
+       
+        
+       background-repeat: no-repeat;
+       background-size: cover;
+     -webkit-background-size:cover;
+
+    }
+
+
+
+    
+
+    
+    .inno{
+
+
+       
+        
+     
+     justify-content: space-around;
+     display: flex;
+     
+    
+
+    }
+
+    h3 h2{
+        
+        color: #000000;
+        text-align: center;
+       
+    }
+
+    .form{
+       
+       background-repeat: no-repeat;
+       background-size: cover;
+     -webkit-background-size:cover;
+     justify-content: space-around;
+     display: flex;
+     
+    
+
+    }
+
+
+    .tri,  .tri2{
+      
+       background-repeat: no-repeat;
+       background-size: cover;
+     -webkit-background-size:cover;
+     justify-content: space-around;
+     display: flex;
+     
+    
+
+    }
+  
+
+  
+  
+
+    .avanzado, .avanzado2, .avanzado3, .avanzado4{
+       
+       background-repeat: no-repeat;
+       background-size: cover;
+     -webkit-background-size:cover;
+     justify-content: space-around;
+     display: flex;
+     
+    
+
+    }
+
+
+     
+        
+        
+        
+
+
+
+  .parra{
+      text-align: center;
+      font-size: 30px;
+  }
+  
+  h2 , h3 , h4{
+      font-size: 40px;
+
+  }
+
+
+
+
+
+
+
+
+
+
+ 
+  .contac{
+    background-image: url(../img/imgff.jpg);
+   height: 1000px;
+   width: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+ -webkit-background-size:cover;
+ justify-content: space-around;
+ display: flex;
+ 
+ vertical-align: bottom;
+
+}
+
+
+   form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 7px;
+         } 
+
+h2{
+    
+    text-align: center;
+    margin: 0px;
+    font-size: 30px;
+    margin-bottom: 10px;
+    
+}
+
+input, textarea{
+
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 20px;
+    border: none;
+}
+
+textarea{
+min-height: 100px;
+max-height: 200px;
+max-width: 100%;
+}
+
+#boton{
+    background:   rgb(202, 16, 16);
+    color: white;
+    padding: 20px;
+}
+
+#boton:hover{
+
+cursor: pointer;
+}
+
+@media (max-with:480px){
+ form{
+    width: 100%
+}
+}
+
+.pie{
+    background-color: #000000;
+    color: rgb(145, 139, 139);
+    text-align: center;
+    margin: 0px;
+     padding: 10px;}
+
+
+     
